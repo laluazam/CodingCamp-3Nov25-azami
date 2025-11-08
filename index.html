@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+		<meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="style.css"/>
+		<title>LaluAzam.comi</title>
+		  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+		  <!--<style type= "text/tailwindcss">
+		  *{
+		    border: 1px solid red;  }-->
+		    
+		  </style>
+</head>
+<body >
+		
+		<header class="main-header">
+				<!--logo-->
+				<div class="logo"></div>
+				
+				<nav class="flex text-center  ">
+						<a class="border rouded p-2 bg-red-400 mx-1 "href="#home-page">Home</a>
+						<a class="border rouded p-2 mx-1 bg-red-400"href="#our-profil">Our Profil</a>
+						<a class="border rouded p-2 mx-1 bg-red-400"href="#portofolio">Portofolio</a>
+						<a class="border rouded p-2 mx-1 bg-red-400"href="#massage-us">Message Us</a>
+				</nav>
+		</header>
+		
+		<hr>
+		
+		<main>
+		  <br>
+		  
+		  
+				<!--home page-->
+				<section class="text-center min-h-[800px] m-4" id="home-page" >
+				  <h2 id="sudah-form"></h2>
+						<h2 class="text-xl font-bold" id="welcome-speech">Hello selamat datang</h2>
+						<p class="mt-2  "> kami senang anda berkunjung kesini.<br><br>
+						<img  class="rounded"src= "Spiderman.jpg">
+						<p class="mt-2 bg-yellow-500 rounded mt-2 bg-cover italic text-xl text-justify p-3" >Pertama-tama terimakasih banyak atas ilmu-ilmu dan semangat-semangatnya untuk kakak-kakak dari Revou semuanya.</p>
+						<br>
+						<p class="text-justify">
+						website kami ini akan memberimu semakin keren, baca sampai habis ya kakak-kakak dan teman-teman😀</p>
+				</section>
+				<hr>
+					<!--our profil page-->
+				<section class=" m-4 text-center min-h-[800px]" id="our-profil">
+						<h2 class="text-xl font-bold">Tentang kami</h2>
+						
+						
+						<p class=" mt-2 text-justify" > -SAMBUTAN<br>
+						Pertama-tama ini adalah website coding pertama saya, yang ilmunya berasal dari Coding Camp dari Revou juga dari nonton WPU x Kita bisa di Youtube dll. juga belajar di aplikasi hp yang namanya SoloLearn, untuk guru-guru coding saya- saya berterimakasih banyak, semoga ilmunya bisa kami manfaatkan.</p> <br><br>
+						
+						
+						<p class=" text-justify bg-yellow-300 rounded" >Kakak-kakak Revou tetap semangat,kucing berkata "orang yang menanam pasti akan memanen hehe"</p><br><br><br>
+						
+
+						
+						<p class="text-left" onclick="toggleKeterangan('keterangan1')">
+    -KARYA </p> <p class="text-left ml-1 italic"> (klik untuk melihatnya)</p>
+  
+  <div id="keterangan1"class="text-justify">
+						  
+						  Sebenarnya ini website coding pertama saya,sebelumnya ada website yang saya bikin pakai google site, kalau mau lihat klik <a href="https://sites.google.com/view/ypp-al-istiqomah-nw-lingsar/beranda" class="bg-blue-500">Revou</a> <-- hehe. Atau lihat di portofolio dibawah.
+						  <br>
+						    
+						    Untuk sedikit karya saya yang lain bisa lihat di Instagram saya, <a href="https://www.instagram.com/p/DNMY0r6S1AL/?igsh=b3p3cGE1eTRwbWx6"class="bg-red-100">@lalu_azam</a>.<br> <br>
+						    <img src="selfi.jpg"
+						    
+						       Dan untuk kedepannya munkin akan ada web-web baru yang akan saya bikin.
+  </div>
+						<p 
+						    
+						</p>
+						
+
+				</section>
+				<hr>
+					<!--home portofolio page-->
+				<section class=" m-4 min-h-[500px] text-center " id="portofolio">
+						<h2 class="text-xl font-bold">Portofolio</h2>
+						<p class="mt-2"> 
+						<a>- Website pakai Google Site</a><br>
+						<a>- Instagram</a><br>
+						<a>- Coming Soon</a>
+						</p>
+				</section>
+				<hr>
+						<!--home massage us page-->
+				<section class=" m-4 text-center min-h-[500px]" id="massage-us">
+						<header>
+								<h2 class="text-xl font-bold">Message Us</h2>
+						<p class="mt-2 text-justify"> Tupai berkata "tidak ada yang sempurna di dunia ini tapi Aku selalu ada di dunia ini aku itu adalah perubahan" anjayyyyy.</p>
+						<br>
+						<p class="text-justify"> Beri kami masukan,saran dan komentar ya kakak-kakak dan teman-teman semuanya.</p>
+						<p class="text-justify">
+						  Sebelumnya sebagai penutup,terimakasih telah membaca sampai disini,</p>	 <!-- Teks yang bisa diklik -->
+  <p id="kataKlik" class="text-blue-600 underline cursor-pointer text-lg hover:text-blue-800">
+    Klik ini
+  </p>
+
+  <!-- Pop-up (awalnya disembunyikan) -->
+  <div id="popup"
+       class="hidden fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+    <div class="bg-white p-6 rounded-2xl shadow-lg text-center max-w-xs">
+      <p class="text-green-600 font-semibold mb-4">
+        Kamu Keren 😄
+      </p>
+      <button id="tutupPopup"
+              class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+        Tutup
+      </button>
+    </div>
+  </div>
+  <p class="text-justify">(hadiah ✨ apresiasi special) <br>terimakasih atas ilmunya dan masukannya,(cara jadi ahli coding gimana ya kak dan temen-temen semuanya hehe?)
+				    </p>
+				    <br>
+						<form action="">
+								<div>
+										<label class="block mb-2" for="name">Nama</label>
+										<input class="w-full p-2 border rounded" placeholder="Ketik disini...."type="text" id="name" name="name">
+										<br>
+										<br>
+										<label>Masukan</label>
+										<textarea class="w-full p-2 border h-30"placeholder="Ketik disini...."></textarea>
+										
+								</div>
+								<button class="px-4 py-2 bg-blue-500 text-white rounded" type="submit" onclick="validasiForm()" >Kirim</button>
+						</form>
+								</header>
+				</section>
+				
+		</main>
+		<br>
+		<hr>
+	
+
+		
+		<footer>
+				<p class="text-center p-4 bg-black text-white ">©2025 Azam Company. All right reserved.</p>
+		</footer>
+		
+		<script src="script.js"></script>
+
+</body>
+</html>
